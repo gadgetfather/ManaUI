@@ -1,0 +1,41 @@
+@import url(/common.css);
+@import url(/Avatar/Avatar.css);
+/* badges */
+.badge{
+    border-radius: var(--br-full);
+    border: 2px solid white;
+    position: absolute;
+}
+.badge-large{
+    height: 1.2rem;
+    width: 1.2rem;
+    right: 10px;
+    bottom: 10px;
+}
+
+.badge-medium{
+    height: 0.9rem;
+    width: 0.9rem;
+    right: 7px;
+    bottom: 7px;
+}
+.badge-small{
+    height: 0.8rem;
+    width: 0.8rem;
+    right: 5px;
+    bottom: 5px;
+    
+}
+
+/* badge colors */
+.badge--color--green{
+    background-color: green;   
+}
+
+.badge--color--red{
+    background-color: red;
+}
+
+.badge--color--yellow{
+    background-color: yellow; 
+}
