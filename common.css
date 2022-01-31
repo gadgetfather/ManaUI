@@ -14,7 +14,12 @@
     --fs3:1.5rem;
     --fs4:1rem;
     --fs5:0.5rem;
-
+/* font-weight */
+    --fw-light:300;
+    --fw-regular:400;
+    --fw-semi:600;
+    --fw-bold:700;
+    --fw-black:900;    
 /* spacing */
     --spacing1:0.125rem;
     --spacing2:0.25rem;
