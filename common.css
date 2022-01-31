@@ -1,0 +1,51 @@
+/* reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general CSS */
+
+/* Typography */
+:root{
+    --fs1:3rem;
+    --fs2:2rem;
+    --fs3:1.5rem;
+    --fs4:1rem;
+    --fs5:0.5rem;
+/* font-weight */
+    --fw-light:300;
+    --fw-regular:400;
+    --fw-semi:600;
+    --fw-bold:700;
+    --fw-black:900;    
+/* spacing */
+    --spacing1:0.125rem;
+    --spacing2:0.25rem;
+    --spacing3:0.375rem;
+    --spacing4:0.5rem;
+    --spacing5:0.625rem;
+    --spacing6:0.75rem;
+    --spacing7:1rem;
+    --spacing8:1.25rem;
+    --spacing9:1.5rem;
+    --spacing10:1.75rem;
+    --spacing11:2rem;
+    --spacing12:2.25rem;
+    --spacing13:2.5rem;
+    --spacing14:2.75rem;
+    
+    /* border radius */
+    --br-small:5px;
+    --br-medium:10px;
+    --br-large:15px;
+    --br-full:999px;
+
+    /* colors */
+    --bg-color: #E8EEF2;
+    --primary-color: #0D1B2A;
+    --secondary-color:#747578;
+    --primary-hover-color:#404E5D;
+    --secondary-hover-color:#A7A8AB;
+}
