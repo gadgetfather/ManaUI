@@ -1,0 +1,45 @@
+@import url(/common.css);
+/* alert container */
+.alert-container{
+    align-items: center;
+    border-radius: var(--br-small);
+    box-shadow:3px 3px 5px rgba(0, 0, 0, 0.253);
+    display: flex;
+    font-weight:var(--fw-semi);
+    gap:var(--spacing7);
+    margin-bottom: var(--spacing7);
+    padding: var(--spacing7);
+    width: 32.5rem;
+}
+
+/* red error alert */
+.red-error-alert{
+    background-color: rgba(255, 148, 148, 0.918);
+    color: rgba(131, 0, 0, 0.89);
+    
+}
+
+/*  yellow warning alert */
+.yellow-warning-alert{
+    background-color: rgb(255, 239, 114);
+    color: rgba(49, 49, 30, 0.89);
+}
+
+/* blue information alert */
+.blue-info-alert{
+    background-color: rgb(173, 228, 255);
+    color: rgba(0, 26, 73, 0.65);
+    
+}
+
+/* green success alert */
+.green-success-alert{
+    background-color: rgb(189, 255, 163);
+    color: rgba(1, 31, 5, 0.65);
+    
+}
+
+/* alert close icon */
+.alert-container-close{
+    margin-left: auto;
+}
