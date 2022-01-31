@@ -31,5 +31,9 @@
     --spacing13:2.5rem;
     --spacing14:2.75rem;
     
-
+    /* border radius */
+    --br-small:5px;
+    --br-medium:10px;
+    --br-large:15px;
+    --br-full:999px;
 }
