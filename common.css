@@ -41,4 +41,11 @@
     --br-medium:10px;
     --br-large:15px;
     --br-full:999px;
+
+    /* colors */
+    --bg-color: #E8EEF2;
+    --primary-color: #0D1B2A;
+    --secondary-color:#747578;
+    --primary-hover-color:#404E5D;
+    --secondary-hover-color:#A7A8AB;
 }
