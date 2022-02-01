@@ -5,6 +5,7 @@
 @import url(/badge/badge.css);
 @import url(/button/button.css);
 @import url(/image-component/image.css);
+@import url(/Input-component/input.css);
 
 .breakr{
     border-bottom: 1px solid rgba(0, 0, 0, 0.356);
