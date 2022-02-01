@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+    <title>Button | Mana UI</title>
+</head>
+<body>
+    <div class="page-container">
+        <!-- navbar -->
+        <nav class="navbar breakr">
+            <div class="brand-name">
+                <h1>MANA UI</h1>
+            </div>
+            <div >
+                <ul class="nav-icons">
+                    <li>Github</li>
+                    <li>Twitter</li>
+                    <li>LinkedIn</li>
+                </ul>
+            </div>
+        </nav>
+        <!-- sidebar -->
+        <div class="sidebar">
+            <h1 class="breakr">Get Started</h1>
+            <a href="" class="btn btn-text-primary">Introduction</a>
+            <h1 class="breakr">Components</h1>
+            <a href="/Documentation/alert-page.html" class="btn btn-text-primary">Alert</a>
+            <a href="/Documentation/avatar-page.html" class="btn btn-text-primary">Avatar</a>
+            <a href="/Documentation/badge-page.html" class="btn btn-text-primary">Badge</a>
+            <a href="/Documentation/button-page.html" class="btn btn-text-primary">Button</a>
+            <a href="/Documentation/card-page.html" class="btn btn-text-primary">Card</a>
+            <a href="/Documentation/image-page.html" class="btn btn-text-primary">Image</a>
+            <a href="/Documentation/input-page.html" class="btn btn-text-primary">Input</a>
+            <a href="" class="btn btn-text-primary">List</a>
+            <a href="" class="btn btn-text-primary">Toast</a>
+        </div>
+        <div class="main-content">
+            <h1 class="page-title breakr">Button</h1>
+            <p class="content-description">Buttons are the soul of an interactive Web Application. Buttons allow users to take actions, and make choices, with a single tap.
+            </p>
+            <!-- contained button -->
+            <h2 class="content-head">Contained Button</h2>
+            <p class="content-description">Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.
+            </p>
+            <div class="component-container component-horizontal">
+                    <button class="btn">Default</button>
+                    <button class="btn btn-primary">Primary</button>
+                    <button class="btn btn-secondary">Secondary</button>
+                    <button class="btn btn-disabled">Disabled</button>
+            </div>
+            <div class="iframe-wrapper">
+                <iframe class="code-snippet"
+                        src="https://carbon.now.sh/embed/"
+                        sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            
+            <!-- outlined buttons -->
+            <h2 class="content-head">Outlined Button</h2>
+            <p class="content-description">In need of a button, but not the hefty background colors they bring? just add a "btn-outlined".
+            </p>
+            <div class="component-container component-horizontal">
+                <button class="btn btn-outlined">Primary</button>
+                <button class="btn btn-outlined outline2">Primary</button>
+            </div>
+            <div class="iframe-wrapper">
+                <iframe class="code-snippet"
+                        src="https://carbon.now.sh/embed/"
+                        sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- buttons with icons -->
+            <h2 class="content-head">Button with icons</h2>
+            <p class="content-description">icon Buttons can be created, by using a SVG as a child to parent button. 
+            </p>
+            <div class="component-container component-horizontal">
+                <button class="btn btn-icon">
+                    <i class="fas fa-trash"></i> Delete
+                </button>
+                <button class="btn btn-icon">
+                    <i class="fas fa-paper-plane"></i> Send
+                </button>
+            </div>
+            <div class="iframe-wrapper">
+                <iframe class="code-snippet"
+                        src="https://carbon.now.sh/embed/"
+                        sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- floating action button -->
+            <h2 class="content-head">Floating action button </h2>
+            <p class="content-description">Icons are also appropriate for toggle buttons that allow a single choice to be selected or deselected, such as adding or removing a star to an item.
+            </p>
+            <div class="component-container component-horizontal">
+                <button class="btn btn-primary btn-floating">
+                    <i class="fas fa-plus"></i>
+                </button>
+                <button class="btn btn-secondary btn-floating">
+                    <div><i class="fas fa-pencil-alt"></i></div>
+                </button>
+            </div>
+            <div class="iframe-wrapper">
+                <iframe class="code-snippet"
+                        src="https://carbon.now.sh/embed/"
+                        sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- text button -->
+            <h2 class="content-head">Text button </h2>
+            <p class="content-description">Text buttons are typically used for less-pronounced actions, including those located in dialogs or in cards.
+            </p>
+            <div class="component-container component-horizontal">
+                <button class="btn  btn-text-primary">Primary</button>
+                <button class="btn btn-text-secondary">Secondary</button>
+            </div>
+            <div class="iframe-wrapper">
+                <iframe class="code-snippet"
+                        src="https://carbon.now.sh/embed/"
+                        sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

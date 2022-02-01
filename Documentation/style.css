@@ -3,6 +3,7 @@
 @import url(/button/button.css);
 @import url(/Avatar/Avatar.css);
 @import url(/badge/badge.css);
+@import url(/button/button.css);
 
 .breakr{
     border-bottom: 1px solid rgba(0, 0, 0, 0.356);
@@ -47,6 +48,7 @@
 .sidebar{
     grid-area: sidebar;
     display: flex;
+    padding-left: 1.1rem;
     flex-direction: column;
     gap: var(--spacing6);
     border: 1px solid gold;
@@ -55,6 +57,7 @@
     grid-area: page;
     /* position: relative; */
     border: 1px solid green;
+    padding: 0 1.2rem;
 }
 /* page titles */
 .page-title{
