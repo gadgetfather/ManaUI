@@ -1,6 +1,7 @@
 @import url(/common.css);
 @import url(/Alert/alert.css);
 @import url(/button/button.css);
+@import url(/Avatar/Avatar.css);
 
 .breakr{
     border-bottom: 1px solid rgba(0, 0, 0, 0.356);
@@ -98,4 +99,11 @@
     background-color: var(--secondary-hover-color);
     align-items: center;
     margin:1rem 3rem    ;
+}
+
+.component-horizontal{
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: var(--spacing7);
+    flex-wrap: wrap;
 }
