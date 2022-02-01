@@ -22,14 +22,14 @@
     grid-template-areas: 
     "nav nav nav nav"
     "sidebar page page ..."
-    "sidebar page page ...";
+    "... page page ...";
 }
 /* navbar */
 .navbar{
     grid-area: nav;
     display: flex;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 5rem;
     justify-content: space-between;
 }
@@ -42,8 +42,14 @@
     margin-right: var(--spacing6);
     display: flex;
     list-style: none;
-    gap: var(--spacing6);
+    gap: 2rem;
     font-size: var(--fs3);
+}
+
+.nav-icons ul a {
+    text-decoration: none;
+    list-style: none;
+    /* color: black; */
 }
 
 /* sidebar */
@@ -53,12 +59,17 @@
     padding-left: 1.1rem;
     flex-direction: column;
     gap: var(--spacing6);
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
+    position: sticky;
+    top: 1rem;
 }
+
+/* main-content */
 .main-content{
     grid-area: page;
+    margin-left: 2rem;
     /* position: relative; */
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 0 1.2rem;
 }
 /* page titles */
