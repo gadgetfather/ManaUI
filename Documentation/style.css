@@ -14,8 +14,8 @@
     grid-template-rows: 5rem;
     grid-template-areas: 
     "nav nav nav nav"
-    "sidebar page page page"
-    "sidebar page page page";
+    "sidebar page page ..."
+    "sidebar page page ...";
 }
 /* navbar */
 .navbar{
@@ -50,4 +50,20 @@
 .main-content{
     grid-area: page;
     border: 1px solid green;
+}
+/* page titles */
+.page-title{
+    font-size: var(--fs1);
+    padding-bottom: var(--spacing6);
+}
+/* content head */
+.content-head{
+    font-size: var(--fs2);
+}
+
+/* page description */
+.content-description{
+    font-size: var(--fs3);
+    color: var(--secondary-color);
+    margin-bottom: var(--spacing14);
 }
