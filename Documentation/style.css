@@ -1,0 +1,27 @@
+@import url(/common.css);
+
+.page-container{
+    height: 100vh;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+/* navbar */
+.navbar{
+    display: flex;
+    align-items: center;
+    border: 2px solid red;
+    height: 6rem;
+    justify-content: space-between;
+}
+
+.brand-name{
+    margin-left: var(--spacing6);
+    font-size: var(--fs2);
+}
+.nav-icons{
+    margin-right: var(--spacing6);
+    display: flex;
+    list-style: none;
+    gap: var(--spacing6);
+    font-size: var(--fs3);
+}
