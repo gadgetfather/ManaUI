@@ -5,7 +5,7 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.356);
 }
 .page-container{
-    height: 100vh;
+    /* height: 100vh; */
     background-color: var(--bg-color);
     color: var(--primary-color);
     display: grid;
@@ -49,6 +49,7 @@
 }
 .main-content{
     grid-area: page;
+    /* position: relative; */
     border: 1px solid green;
 }
 /* page titles */
@@ -66,4 +67,22 @@
     font-size: var(--fs3);
     color: var(--secondary-color);
     margin-bottom: var(--spacing14);
+}
+
+/* iframe style */
+.iframe-wrapper{
+    position: relative;
+    overflow: hidden;
+    padding-top: 30%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.code-snippet{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
