@@ -11,6 +11,7 @@
     font-family: inherit;
     padding: var(--spacing4) var(--spacing6);
     cursor: pointer;
+    text-decoration: none;
     box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.109);
 }
 
