@@ -1,16 +1,29 @@
 @import url(/common.css);
+@import url(/button/button.css);
 
+.breakr{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.356);
+}
 .page-container{
     height: 100vh;
     background-color: var(--bg-color);
     color: var(--primary-color);
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 350px repeat(3,1fr);
+    grid-template-rows: 5rem;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "sidebar page page page"
+    "sidebar page page page";
 }
 /* navbar */
 .navbar{
+    grid-area: nav;
     display: flex;
     align-items: center;
     border: 2px solid red;
-    height: 6rem;
+    height: 5rem;
     justify-content: space-between;
 }
 
@@ -24,4 +37,17 @@
     list-style: none;
     gap: var(--spacing6);
     font-size: var(--fs3);
+}
+
+/* sidebar */
+.sidebar{
+    grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing6);
+    border: 1px solid gold;
+}
+.main-content{
+    grid-area: page;
+    border: 1px solid green;
 }
