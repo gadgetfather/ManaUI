@@ -1,6 +1,7 @@
 @import url(/common.css);
 .input-box{
     display: flex;
+    font-size: var(--fs3);
     flex-direction: column;
     max-width:20rem;
 }
