@@ -1,4 +1,6 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap');
+
 /* reset CSS */
 *{
     margin: 0;
@@ -20,9 +22,12 @@
     --fw-regular:400;
     --fw-semi:600;
     --fw-bold:700;
-    --fw-black:900;
- /*font  */
+   --fw-black:900;
+
  
+
+      
+
 /* spacing */
     --spacing1:0.125rem;
     --spacing2:0.25rem;
@@ -54,7 +59,10 @@
     --white:#fff;
 
 
-    /* font import */
+
+    /* font family*/
 
     font-family: 'Outfit', sans-serif;  
+
+
 }
