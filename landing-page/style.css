@@ -33,4 +33,5 @@
 .landing-button{
     display: flex;
     gap: var(--spacing7);
+    margin-left: var(--spacing1);
 }
