@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Getting started | Mana UI</title>
+</head>
+<body>
+    <div class="page-container">
+        <!-- navbar -->
+        <nav class="navbar breakr">
+            <div class="brand-name">
+                <h1>MANA UI</h1>
+            </div>
+            <div >
+                <ul class="nav-icons">
+                    <li>Github</li>
+                    <li>Twitter</li>
+                    <li>LinkedIn</li>
+                </ul>
+            </div>
+        </nav>
+        <!-- sidebar -->
+        <div class="sidebar">
+            <h1 class="breakr">Get Started</h1>
+            <a href="" class="btn btn-text-primary">Introduction</a>
+            <h1 class="breakr">Components</h1>
+            <a href="/Documentation/alert-page.html" class="btn btn-text-primary">Alert</a>
+            <a href="/Avatar/Avatar.html" class="btn btn-text-primary">Avatar</a>
+            <a href="" class="btn btn-text-primary">Badge</a>
+            <a href="" class="btn btn-text-primary">Button</a>
+            <a href="" class="btn btn-text-primary">Card</a>
+            <a href="" class="btn btn-text-primary">Image</a>
+            <a href="" class="btn btn-text-primary">Input</a>
+            <a href="" class="btn btn-text-primary">List</a>
+            <a href="" class="btn btn-text-primary">Toast</a>
+        </div>
+        <div class="main-content">
+            <h1 class="page-title breakr">Avatar</h1>
+            <p class="content-description">This component consists of user profile pictures, usually found in circular shapes.
+            </p>
+            
+            <h2 class="content-head">Profile Avatar</h2>
+            <p class="content-description">Profile Avatars can be created using the class 'avatar'. avatar-circle is to make avatar circular.
+            </p>
+            <div class="component-container component-horizontal">
+                <div div class="avatar avatar-circle ">
+                    <img class="avatar-image avatar-circle" src="../Images/img1.jpg" alt="user-image">
+                    </div>
+                    <div class="avatar avatar-circle ">
+                    <img class="avatar-image avatar-circle" src="../Images/img2.jpg" alt="user-image">
+                    </div>
+                    <div class="avatar avatar-circle">
+                    <img class="avatar-image avatar-circle" src="../Images/img3.jpg" alt="user-image">
+                    </div>
+            </div>
+            <div class="iframe-wrapper">
+                <iframe class="code-snippet"
+                    src="https://carbon.now.sh/embed/6crTnva7LN30sYiQOc2l"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <!-- variations in images -->
+            <h2 class="content-head">Sizes Avatar</h2>
+            <p class="content-description">Size of the avatars can be changed by adding avatar-large | avatar-medium | avatar-small class to the existing avatar class..
+            </p>
+            <div class="component-container component-horizontal">
+                <div class="avatar avatar-circle avatar-large">
+                    <img class="avatar-image avatar-circle" src="../Images/img1.jpg" alt="user-image">
+                    </div>
+                    <div class="avatar avatar-circle avatar-medium">
+                    <img class="avatar-image avatar-circle" src="../Images/img2.jpg" alt="user-image">
+                    </div>
+                    <div class="avatar avatar-circle avatar-small">
+                    <img class="avatar-image avatar-circle" src="../Images/img3.jpg" alt="user-image">
+                </div>
+            </div>
+        <div class="iframe-wrapper">
+                <iframe class="code-snippet"
+            src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=panda-syntax&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%253Cdiv%2520class%253D%2522avatar%2520avatar-circle%2520avatar-large%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-image%2520avatar-circle%2522%2520src%253D%2522..%252FImages%252Fimg1.jpg%2522%2520alt%253D%2522user-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-circle%2520avatar-medium%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-image%2520avatar-circle%2522%2520src%253D%2522..%252FImages%252Fimg2.jpg%2522%2520alt%253D%2522user-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-circle%2520avatar-small%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-image%2520avatar-circle%2522%2520src%253D%2522..%252FImages%252Fimg3.jpg%2522%2520alt%253D%2522user-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+        <!-- sqaure avatar -->
+        <h2 class="content-head">Square Avatar</h2>
+        <p class="content-description">Adding a class 'avatar' to existing class, will generate a square shaped avatar.
+        </p>
+        <div class="component-container component-horizontal">
+                <div class="avatar  avatar-large">
+                    <img class="avatar-image" src="../Images/img1.jpg" alt="user-image">
+                </div>
+                <div class="avatar  avatar-medium">
+                    <img class="avatar-image" src="../Images/img2.jpg" alt="user-image">
+                </div>
+                <div class="avatar  avatar-small">
+                    <img class="avatar-image" src="../Images/img3.jpg" alt="user-image">
+                </div>
+        </div>
+        <div class="iframe-wrapper">
+            <iframe class="code-snippet"
+                src="https://carbon.now.sh/embed/6crTnva7LN30sYiQOc2l"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+            
+        </div>
+    </div>
+</body>
+</html>
