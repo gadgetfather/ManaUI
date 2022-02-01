@@ -1,4 +1,5 @@
 @import url(/common.css);
+@import url(/Alert/alert.css);
 @import url(/button/button.css);
 
 .breakr{
@@ -6,6 +7,7 @@
 }
 .page-container{
     /* height: 100vh; */
+    padding-bottom: 5rem;
     background-color: var(--bg-color);
     color: var(--primary-color);
     display: grid;
@@ -76,6 +78,7 @@
     padding-top: 30%;
     padding-bottom: 0;
     margin-bottom: 0;
+    margin-bottom: var(--spacing7);
 }
 
 .code-snippet{
@@ -85,4 +88,14 @@
     width: 100%;
     height: 100%;
     border: 0;
+}
+
+/* component-container */
+.component-container{
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing8);
+    background-color: var(--secondary-hover-color);
+    align-items: center;
+    margin:1rem 3rem    ;
 }
