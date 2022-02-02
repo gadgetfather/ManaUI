@@ -1,0 +1,86 @@
+@import url(/common.css);
+
+/* card container */
+.card-container{
+    width:23rem;
+    padding: var(--spacing7);
+    display: flex;
+    flex-direction: column;
+    gap:var(--spacing5);
+    background-color: rgb(238,237,240);
+    border-radius: var(--br-small);
+    position: relative;
+}
+/* title of card */
+.card-title{
+    font-size: var(--fs2);
+    text-transform: uppercase;
+    font-weight: var(--fw-black);
+    margin-bottom: 0;
+}
+/* subtitle of card */
+.card-subtitle{
+    font-size: var(--fs3);
+    margin: 0;
+}
+/* description of card */
+.card-description{
+    line-height: 1.33;
+}
+/* dismiss button */
+.card-dismiss-btn{
+    width: 5rem;
+    margin-left: auto;
+}
+/* overlay text */
+.card-text-overlay{
+    position: absolute;
+    bottom:0rem;
+    color: white;
+}
+/* card image */
+.card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.img-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.horz-img{
+    width: 30%;
+    height: auto;
+}
+
+/* card badge */
+.card-badge{
+    width: 3rem;
+    /* height: 3rem; */
+    background-color: var(--primary-color);
+    color: var(--white);
+    position: absolute;
+    text-align: center;
+    padding-right: var(--spacing5);
+    top: 0.9rem;
+    left: 0.9rem;
+    
+    border-bottom-right-radius: var(--br-small);
+   
+}
+/* vertical card */
+.card-vertical{
+    width: 14.5rem;
+}
+
+/* horizontal card */
+.card-horizontal{
+ width: 30rem;
+ flex-direction: row;
+}
+
+/* card shadow */
+.card-shadow{
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.233);
+}

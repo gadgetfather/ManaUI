@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap');
 
 /* reset CSS */
@@ -22,7 +21,8 @@
     --fw-regular:400;
     --fw-semi:600;
     --fw-bold:700;
-   --fw-black:900;
+    --fw-black:900;    
+  
 
  
 
@@ -57,12 +57,6 @@
     --primary-hover-color:#404E5D;
     --secondary-hover-color:#A7A8AB;
     --white:#fff;
-
-
-
     /* font family*/
-
-    font-family: 'Outfit', sans-serif;  
-
-
+  font-family: 'Outfit', sans-serif;  
 }
