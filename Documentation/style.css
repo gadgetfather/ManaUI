@@ -6,6 +6,7 @@
 @import url(/button/button.css);
 @import url(/image-component/image.css);
 @import url(/Input-component/input.css);
+@import url(/card/card.css);
 
 .breakr{
     border-bottom: 1px solid rgba(0, 0, 0, 0.356);
