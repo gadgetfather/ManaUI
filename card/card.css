@@ -29,7 +29,7 @@
 }
 /* dismiss button */
 .card-dismiss-btn{
-    width: 5rem;
+    max-width: max-content;
     margin-left: auto;
 }
 /* overlay text */
