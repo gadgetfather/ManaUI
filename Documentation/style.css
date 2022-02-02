@@ -46,10 +46,10 @@
     font-size: var(--fs3);
 }
 
-.nav-icons ul a {
+.nav-icons .icon{
     text-decoration: none;
     list-style: none;
-    /* color: black; */
+    color: black;
 }
 
 /* sidebar */
