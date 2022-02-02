@@ -80,6 +80,7 @@
 /* content head */
 .content-head{
     font-size: var(--fs2);
+    padding-bottom: 1rem;
 }
 
 /* page description */
