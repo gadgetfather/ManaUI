@@ -8,7 +8,7 @@
     flex-direction: column;
     gap:var(--spacing5);
     background-color: rgb(238,237,240);
-    border-radius: 0.4rem;
+    border-radius: var(--br-small);
     position: relative;
 }
 /* title of card */
@@ -42,7 +42,7 @@
 .card-img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 .img-container{
     position: relative;
@@ -76,8 +76,8 @@
 
 /* horizontal card */
 .card-horizontal{
- flex-direction: row;
  width: 30rem;
+ flex-direction: row;
 }
 
 /* card shadow */
