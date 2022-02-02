@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+    <title>Card | Mana UI</title>
+</head>
+<body>
+    <div class="page-container">
+        <!-- navbar -->
+        <nav class="navbar breakr">
+            <div class="brand-name">
+                <h1>MANA UI</h1>
+            </div>
+            <div >
+                <ul class="nav-icons">
+                    <li><a target="_blank" href="https://github.com/gadgetfather"><i class="icon fab fa-github"></i></a></li>
+                    <li> <a target="_blank" href="https://twitter.com/Gadgetfather"><i class="icon fab fa-twitter"></i></a> </li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/gadgetfather/"><i class="icon fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- sidebar -->
+        <div class="sidebar">
+            <h1 class="breakr">Get Started</h1>
+            <a href="/Documentation/index.html" class="btn btn-text-primary">Introduction</a>
+            <h1 class="breakr">Components</h1>
+            <a href="/Documentation/alert-page.html" class="btn btn-text-primary">Alert</a>
+            <a href="/Documentation/avatar-page.html" class="btn btn-text-primary">Avatar</a>
+            <a href="/Documentation/badge-page.html" class="btn btn-text-primary">Badge</a>
+            <a href="/Documentation/button-page.html" class="btn btn-text-primary">Button</a>
+            <a href="/Documentation/card-page.html" class="btn btn-text-primary">Card</a>
+            <a href="/Documentation/image-page.html" class="btn btn-text-primary">Image</a>
+            <a href="/Documentation/input-page.html" class="btn btn-text-primary">Input</a>
+            <a href="" class="btn btn-text-primary">List</a>
+            <a href="" class="btn btn-text-primary">Toast</a>
+        </div>
+        <div class="main-content">
+            <h1 class="page-title breakr">Card</h1>
+            <p class="content-description">Cards contain content and actions about a single subject.
+            </p>
+            <!-- simple -->
+            <h2 class="content-head breakr">Simple Text Card</h2>
+            <p class="content-description">A text only card with action button.
+            </p>
+            <div class="component-container">
+                <div class="card-container">
+                    <h1 class="card-title">Title of Card</h1>
+                    <h2 class="card-subtitle">Subtitle of Card</h2>
+                    <p class="card-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit dolores culpa, hic iusto perspiciatis, et tempore praesentium eveniet porro, quam quos eius. Fugit sequi, adipisci ipsam delectus fuga voluptate corporis.</p>
+                    <button class="btn btn-primary ">button</button>
+                </div>
+            </div>
+            <div class="iframe-wrapper">
+                <iframe class="code-snippet"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ETitle%2520of%2520Card%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ESubtitle%2520of%2520Card%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%2520elit.%2520Sit%2520%2509%2509%2509dolores%2520culpa%252C%2520hic%2520iusto%2520perspiciatis%252C%2520et%2520tempore%2520praesentium%2520eveniet%2520porro%252C%2520quam%2520quos%2520%2509%2509%2509%2509eius.%2520Fugit%2520sequi%252C%2520adipisci%2520ipsam%2520delectus%2520fuga%2520voluptate%2520corporis.%250A%2520%2520%2520%2520%2520%2520%2509%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520%2522%253Ebutton%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            
+            <!-- card with dismiss button -->
+            <h2 class="content-head breakr">Card with dismiss button</h2>
+            <p class="content-description">A simple card with image and text. Also a button to dismiss the card.
+            </p>
+            <div class="component-container ">
+                <div class="card-container">
+                    <img src="/Images/img.jpg" alt="image">
+                    <h1 class="card-title">Title of card</h1>
+                    <h2 class="card-subtitle">Subtitle</h2>
+                    <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, adipisci!</p>
+                    <button class="btn btn-secondary card-dismiss-btn">Dismiss</button>
+                </div>
+            </div>
+            <div class="iframe-wrapper">
+                <iframe class="code-snippet"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252FImages%252Fimg.jpg%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ETitle%2520of%2520card%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ESubtitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253ELorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520%2509%2509%2509%2509%2509%2509elit.%2520Laudantium%252C%2520quasi.%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520%2509%2509%2509%2509%2509%2509elit.%2520Ipsum%252C%2520adipisci%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%2509%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2520card-dismiss-btn%2522%253EDismiss%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- Card with text overlay -->
+            <h2 class="content-head breakr">Card with text overlay</h2>
+            <p class="content-description">Card with image and text. In this card text is overlayed.
+            </p>
+            <div class="component-container ">
+                <div class="card-container">
+                    <div class="img-container">
+                        <img src="/Images/img.jpg" alt="image">
+                        <div class="card-text-overlay">
+                            <h1 class="card-title">Title of card</h1>
+                            <h2 class="card-subtitle">Subtitle</h2>
+                        </div>
+                    </div>
+                    
+                    <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, adipisci!</p>
+                </div>
+            </div>
+            <div class="iframe-wrapper">
+                <iframe class="code-snippet"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252FImages%252Fimg.jpg%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ETitle%2520of%2520card%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ESubtitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253ELorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Laudantium%252C%2520quasi.%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Ipsum%252C%2520adipisci%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- text only card -->
+            <h2 class="content-head breakr">Text only card </h2>
+            <p class="content-description">This is text only card. can be used to give information only.
+            </p>
+            <div class="component-container ">
+                <div class="card-container">
+                    <h1 class="card-title">Title of card</h1>
+                    <h2 class="card-subtitle">Subtitle</h2>
+                    <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, adipisci!</p>
+                </div>
+            </div>
+            <div class="iframe-wrapper">
+                <iframe class="code-snippet"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ETitle%2520of%2520card%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ESubtitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520eli%2520Laudantium%252C%2520quasi.%2520Lorem%2520ipsum%2520%2509%2509%2509%2520%2520%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Ipsum%252Cadipisci%21%250A%2520%2520%2520%2520%2520%2520%2509%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- card with badge -->
+            <h2 class="content-head breakr">Card with badge</h2>
+            <p class="content-description">This is card with badge. badge can be used to highlight the card.
+            </p>
+            <div class="component-container">
+                <div class="card-container">
+                    <div class="img-container">
+                        <img class="card-img" src="https://picsum.photos/1920/1080" alt="image">
+                        <div class="card-badge">New</div>
+                    </div>
+                        
+                    <h1 class="card-title">Title of card</h1>
+                    <h2 class="card-subtitle">Subtitle</h2>
+                    <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, adipisci!</p>
+                </div>
+            </div>
+            <div class="iframe-wrapper">
+                <iframe class="code-snippet"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F1920%252F1080%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ETitle%2520of%2520card%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ESubtitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Laudantium%252C%2520quasi.%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Ipsum%252C%2520adipisci%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- vertical card -->
+            <h2 class="content-head breakr">Vertical card</h2>
+            <p class="content-description">This is a vertical card with image and text. 
+            </p>
+            <div class="component-container">
+                <div class="card-container card-vertical">
+                    <img class="card-img" src="/Images/img.jpg" alt="image">
+                    <h1 class="card-title">Title of card</h1>
+                    <h2 class="card-subtitle">Subtitle</h2>
+                    <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, adipisci!</p>
+                </div>
+            </div>
+            <div class="iframe-wrapper">
+                <iframe class="code-snippet"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522card-container%2520card-vertical%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522%252FImages%252Fimg.jpg%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ETitle%2520of%2520card%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ESubtitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Laudantium%252C%2520quasi.%2520Lorem%2520%2509%2509%2509%2509%2509ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Ipsum%252C%2520adipisci%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- Horizontal card -->
+            <h2 class="content-head breakr">Horizontal Card</h2>
+            <p class="content-description">This is a Horizontal card with image and text. 
+            </p>
+            <div class="component-container">
+                <div class="card-container card-horizontal">
+                    <img class="card-img horz-img" src="/Images/img.jpg" alt="image">
+                    <div>
+                    <h1 class="card-title">Title of card</h1>
+                    <h2 class="card-subtitle">Subtitle</h2>
+                    <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, adipisci!</p>
+                    </div>  
+                </div>
+            </div>
+            <div class="iframe-wrapper">
+                <iframe class="code-snippet"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522card-container%2520card-horizontal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2520horz-img%2522%2520src%253D%2522%252FImages%252Fimg.jpg%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ETitle%2520of%2520card%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ESubtitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Laudantium%252C%2520quasi.%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Ipsum%252C%2520adipisci%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- card with shadow -->
+            <h2 class="content-head breakr">Card with shadow</h2>
+            <p class="content-description">This is card with shadow. shadow can be given to any card using class ".card-shadow"
+            </p>
+            <div class="component-container">
+                <div class="card-container card-shadow">
+                    <h1 class="card-title">Title of card</h1>
+                    <h2 class="card-subtitle">Subtitle</h2>
+                    <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, adipisci!</p>
+                </div>
+            </div>
+            <div class="iframe-wrapper">
+                <iframe class="code-snippet"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cdiv%2520class%253D%2522card-container%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ETitle%2520of%2520card%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ESubtitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.Laudantium%252C%2520quasi.Lorem%2520ipsum%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.Ipsum%252Cadipisci%21%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
