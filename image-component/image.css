@@ -1,0 +1,18 @@
+@import url(/common.css);
+
+/* responsive image */
+.responsive-img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* rounded image */
+.rounded-img{
+    border-radius: var(--br-full);
+}
+
+
+.rounded-corner{
+    border-radius: var(--br-medium);
+
+}
