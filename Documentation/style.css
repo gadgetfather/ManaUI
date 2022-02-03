@@ -188,8 +188,6 @@ body{
         "page page"
         "page page";
     }
-    .component-container{
-    }
     .hamburger-menu{
         display: block;
         background-color: black;
@@ -217,5 +215,5 @@ body{
         border: 1px solid black ;
         
     }
-    
+
 }
