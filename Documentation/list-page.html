@@ -47,41 +47,64 @@
             <a href="/Components/modal/modal.html" class="btn btn-text-primary">Modal</a>
         </aside>
         <div class="main-content">
-            <h1 class="page-title breakr">Modal</h1>
-            <p class="content-description">The modal component provides a solid foundation for creating dialogs,
-                popovers, lightboxes, or whatever else.
+            <h1 class="page-title breakr">List</h1>
+            <p class="content-description">List groups are a flexible and powerful component for displaying a series of content. Modify and extend them to support just about any content within.
+
             </p>
-            <!-- simple input -->
-            <h2 class="content-head breakr">Simple modal</h2>
-            <p class="content-description">You can click on the cross button or anywhere outside the modal to close it.
+            <!-- simple list -->
+            <h2 class="content-head breakr">Simple List</h2>
+            <p class="content-description">A simple list. Can be used at multiple places and user can style it.
             </p>
             <div class="component-container">
-                <button id="myBtn" class="btn btn-primary">Open Modal</button>
-
-                <div id="modal" class="modal-container">
-
-                    <!-- Modal content -->
-                    <div class="modal-content">
-
-                        <div class="card-container">
-                            <span class="close">&times;</span>
-                            <h1 class="card-title">This is modal</h1>
-                            <h2 class="card-subtitle">click on cross to close it</h2>
-                            <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Laudantium, quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
-                                adipisci!</p>
-                        </div>
-                    </div>
-
-                </div>
+                <ul class="list">
+                    <span class="list-heading">Simple list</span>
+                    <li>Alpha</li>
+                    <li>Bravo</li>
+                    <li>Charlie</li>
+                </ul>
             </div>
             <div class="iframe-wrapper">
                 <iframe class="code-snippet"
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-box%2520err%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EPassword*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522err-msg%2522%253EWrong%2520password.%2520Try%2520again.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-box%2520correct%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EPassword*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522correct-msg%2522%253EWrong%2520password.%2520Try%2520again.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=794&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cul%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522list-heading%2522%253ESimple%2520list%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253EAlpha%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253EBravo%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253ECharlie%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
-
+            <!-- stacked list -->
+            <h2 class="content-head breakr">Stacked List</h2>
+            <p class="content-description">A Stacked list. Can be used at multiple places and user can style it.
+            </p>
+            <div class="component-container">
+                <ul class="list list-stacked">
+                    <li>Alpha</li>
+                    <li>Bravo</li>
+                    <li>Charlie</li>
+                    <li>Delta</li>
+                </ul>
+            </div>
+            <div class="iframe-wrapper">
+                <iframe class="code-snippet"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=794&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Cul%2520class%253D%2522list%2520list-stacked%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EAlpha%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EBravo%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ECharlie%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EDelta%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Ful%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- spaced list -->
+            <h2 class="content-head breakr">Spaced List</h2>
+            <p class="content-description">A Spaced list. Can be used at multiple places and user can style it. Horizontal version of simple list.
+            </p>
+            <div class="component-container">
+                <ul class="list list-spaced">
+                    <span class="list-heading">Spaced list</span>
+                    <li>Alpha</li>
+                    <li>Bravo</li>
+                    <li>Charlie</li>
+                </ul>
+            </div>
+            <div class="iframe-wrapper">
+                <iframe class="code-snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=794&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Cul%2520class%253D%2522list%2520list-spaced%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522list-heading%2522%253ESpaced%2520list%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EAlpha%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EBravo%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ECharlie%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
 
 
         </div>
