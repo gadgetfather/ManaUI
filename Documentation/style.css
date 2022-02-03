@@ -188,6 +188,8 @@ body{
         "page page"
         "page page";
     }
+    .component-container{
+    }
     .hamburger-menu{
         display: block;
         background-color: black;
@@ -206,12 +208,13 @@ body{
         top: 0;
         z-index: 100;
         background-color: var(--bg-color);
+        
     }
     .sidebar-responsive{
         flex-direction: column;
         z-index: 100;
-        /* position: sticky; */
-        
+        padding: var(--spacing6) var(--spacing5);
+        border: 1px solid black ;
         
     }
 }
