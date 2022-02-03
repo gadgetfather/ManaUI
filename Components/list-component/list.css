@@ -28,6 +28,13 @@
     background-color: lightgray;
 }
 
+/* spaced */
+.list-spaced{
+    flex-direction: row;
+    align-items: center;
+    width: 30rem;
+    /* list-style: circle; */
+}
 
 .list-spaced li {
     list-style: armenian;

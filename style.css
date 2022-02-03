@@ -1,5 +1,5 @@
 @import url(/common.css);
-@import url(/Components/button/button.css);
+@import url(/button/button.css);
 .landing-wrapper{
     height: 100vh;
     display: flex;
@@ -33,14 +33,5 @@
 .landing-button{
     display: flex;
     gap: var(--spacing7);
-}
-
-/* media query */
-@media only screen and (max-width: 1000px){
-    .header{
-        font-size: 7.4rem;
-    }
-    .sub-header{
-        font-size: 2.5rem;
-    }
+    margin-left: var(--spacing1);
 }
