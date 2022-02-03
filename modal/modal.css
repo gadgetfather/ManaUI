@@ -1,0 +1,40 @@
+@import url(/common.css);
+@import url(/button/button.css);
+@import url(/card/card.css);
+
+.modal-container{
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  .modal-content {
+   
+    margin: auto;
+    padding: 20px;
+    width: 30%;
+  }
+  
+  
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    font-size: 1.4rem;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
