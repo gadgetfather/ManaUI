@@ -12,11 +12,12 @@
     height: 100%; 
     overflow: auto; 
     background-color: rgba(0,0,0,0.4);
+    z-index: 101;
   }
 
   .modal-content {
     padding: 20px;
-    width: 30%;
+    width: 50%;
     position: absolute;
     top: 47%;
     left: 36%;

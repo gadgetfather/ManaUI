@@ -10,6 +10,7 @@
     background-color: rgb(238,237,240);
     border-radius: var(--br-small);
     position: relative;
+    max-width: 100%;
 }
 /* title of card */
 .card-title{
@@ -49,10 +50,7 @@
     display: flex;
     flex-direction: column;
 }
-.horz-img{
-    width: 30%;
-    height: auto;
-}
+
 
 /* card badge */
 .card-badge{
@@ -77,6 +75,11 @@
 .card-horizontal{
  width: 30rem;
  flex-direction: row;
+}
+.img-box{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
 }
 
 /* card shadow */
