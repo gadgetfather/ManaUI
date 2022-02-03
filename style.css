@@ -34,3 +34,13 @@
     display: flex;
     gap: var(--spacing7);
 }
+
+/* media query */
+@media only screen and (max-width: 1000px){
+    .header{
+        font-size: 7.4rem;
+    }
+    .sub-header{
+        font-size: 2.5rem;
+    }
+}
