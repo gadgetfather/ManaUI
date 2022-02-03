@@ -15,10 +15,11 @@
   }
 
   .modal-content {
-   
-    margin: auto;
     padding: 20px;
     width: 30%;
+    position: absolute;
+    top: 47%;
+    left: 36%;
   }
   
   
