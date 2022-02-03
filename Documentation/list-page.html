@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="/Components/modal/modal.js"></script>
+
+    <title>List | Mana UI</title>
+</head>
+
+<body>
+    <div class="page-container">
+        <!-- navbar -->
+        <nav class="navbar breakr">
+            <div class="brand-name">
+                <h1>MANA UI</h1>
+            </div>
+            <div>
+                <ul class="nav-icons">
+                    <li><a target="_blank" href="https://github.com/gadgetfather"><i class="icon fab fa-github"></i></a>
+                    </li>
+                    <li> <a target="_blank" href="https://twitter.com/Gadgetfather"><i
+                                class="icon fab fa-twitter"></i></a> </li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/gadgetfather/"><i
+                                class="icon fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- sidebar -->
+        <aside class="sidebar">
+            <h1 class="breakr">Get Started</h1>
+            <a href="/Documentation/index.html" class="btn btn-text-primary">Introduction</a>
+            <a href="/Documentation/color-page.html" class="btn btn-text-primary">Colors</a>
+            <a href="/Documentation/utilities-page.html" class="btn btn-text-primary">Utilities</a>
+            <h1 class="breakr">Components</h1>
+            <a href="/Documentation/alert-page.html" class="btn btn-text-primary">Alert</a>
+            <a href="/Documentation/avatar-page.html" class="btn btn-text-primary">Avatar</a>
+            <a href="/Documentation/badge-page.html" class="btn btn-text-primary">Badge</a>
+            <a href="/Documentation/button-page.html" class="btn btn-text-primary">Button</a>
+            <a href="/Documentation/card-page.html" class="btn btn-text-primary">Card</a>
+            <a href="/Documentation/image-page.html" class="btn btn-text-primary">Image</a>
+            <a href="/Documentation/input-page.html" class="btn btn-text-primary">Input</a>
+            <a href="/Documentation/list-page.html" class="btn btn-text-primary">List</a>
+            <a href="/Components/modal/modal.html" class="btn btn-text-primary">Modal</a>
+        </aside>
+        <div class="main-content">
+            <h1 class="page-title breakr">Modal</h1>
+            <p class="content-description">The modal component provides a solid foundation for creating dialogs,
+                popovers, lightboxes, or whatever else.
+            </p>
+            <!-- simple input -->
+            <h2 class="content-head breakr">Simple modal</h2>
+            <p class="content-description">You can click on the cross button or anywhere outside the modal to close it.
+            </p>
+            <div class="component-container">
+                <button id="myBtn" class="btn btn-primary">Open Modal</button>
+
+                <div id="modal" class="modal-container">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+
+                        <div class="card-container">
+                            <span class="close">&times;</span>
+                            <h1 class="card-title">This is modal</h1>
+                            <h2 class="card-subtitle">click on cross to close it</h2>
+                            <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Laudantium, quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+                                adipisci!</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="iframe-wrapper">
+                <iframe class="code-snippet"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-box%2520err%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EPassword*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522err-msg%2522%253EWrong%2520password.%2520Try%2520again.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-box%2520correct%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EPassword*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522correct-msg%2522%253EWrong%2520password.%2520Try%2520again.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
