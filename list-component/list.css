@@ -1,0 +1,29 @@
+@import url(/common.css);
+
+.list{
+    border: 1px solid black;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing7);
+    /* align-items: center; */
+    padding: 1rem;
+    margin: 0;
+    font-size: var(--fs3);
+    text-align: left;
+}
+.list li{
+    list-style: none;
+    display:block;
+}
+.list-heading{
+    font-size: var(--fs2);
+}
+
+/* Stacked */
+.list-stacked li{
+    border: 1px solid black;
+    width: 100%;
+    padding: 0.3rem 0.2rem;
+    background-color: lightgray;
+}
