@@ -27,11 +27,16 @@ body{
     height: 5rem;
     justify-content: space-between;
 }
-
+/* Brand name */
 .brand-name{
     margin-left: var(--spacing6);
     font-size: var(--fs2);
 }
+.brand-name a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+/* nav icons */
 .nav-icons{
     margin-right: var(--spacing6);
     display: flex;
