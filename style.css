@@ -1,5 +1,5 @@
 @import url(/common.css);
-@import url(/button/button.css);
+@import url(/Components/button/button.css);
 .landing-wrapper{
     height: 100vh;
     display: flex;
