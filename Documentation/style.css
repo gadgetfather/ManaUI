@@ -1,13 +1,4 @@
-@import url(/common.css);
-@import url(/Alert/alert.css);
-@import url(/button/button.css);
-@import url(/Avatar/Avatar.css);
-@import url(/badge/badge.css);
-@import url(/button/button.css);
-@import url(/image-component/image.css);
-@import url(/Input-component/input.css);
-@import url(/card/card.css);
-@import url(/Utilities/utlities.css);
+@import url(/component.css);
 
 .breakr{
     border-bottom: 1px solid rgba(0, 0, 0, 0.356);
