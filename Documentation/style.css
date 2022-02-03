@@ -138,6 +138,7 @@ body{
     height: 8rem;
     gap:var(--spacing6);
     margin-bottom: var(--spacing7);
+    flex-wrap: wrap;
 }
 
 .color{
