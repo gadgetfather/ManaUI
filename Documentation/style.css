@@ -1,12 +1,13 @@
 @import url(/component.css);
 
+body{
+    background-color: var(--bg-color)
+}
 .breakr{
     border-bottom: 1px solid rgba(0, 0, 0, 0.356);
 }
 .page-container{
-    /* height: 100vh; */
-    padding-bottom: 5rem;
-    background-color: var(--bg-color);
+    height: 100%;
     color: var(--primary-color);
     display: grid;
     gap: 1rem;
@@ -64,6 +65,7 @@
     /* position: relative; */
     /* border: 1px solid green; */
     padding: 0 1.2rem;
+    /* background-color: var(--primary-color); */
 }
 /* page titles */
 .page-title{
