@@ -10,6 +10,7 @@
     background-color: rgb(238,237,240);
     border-radius: var(--br-small);
     position: relative;
+    max-width: 100%;
 }
 /* title of card */
 .card-title{
