@@ -1,0 +1,224 @@
+@import url(/component.css);
+
+body{
+    background-color: var(--bg-color)
+}
+.breakr{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.356);
+}
+.page-container{
+    height: 100%;
+    color: var(--primary-color);
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 350px repeat(3,1fr);
+    grid-template-rows: 5rem;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "sidebar page page ..."
+    "... page page ...";
+}
+/* navbar */
+.navbar{
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 5rem;
+    justify-content: space-between;
+}
+/* Brand name */
+.brand-name{
+    margin-left: var(--spacing6);
+    font-size: var(--fs2);
+}
+.brand-name a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+/* nav icons */
+.nav-icons{
+    margin-right: var(--spacing6);
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-size: var(--fs3);
+}
+
+.nav-icons .icon{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+/* sidebar */
+.sidebar{
+    grid-area: sidebar;
+    display: flex;
+    padding-left: 1.1rem;
+    flex-direction: column;
+    gap: var(--spacing6);
+    /* border: 1px solid gold; */
+    position: sticky;
+    top: 1rem;
+}
+.sidebar-responsive{
+    display: none;
+}
+
+/* main-content */
+.main-content{
+    grid-area: page;
+    margin-left: 2rem;
+    /* position: relative; */
+    /* border: 1px solid green; */
+    padding: 0 1.2rem;
+    /* background-color: var(--primary-color); */
+}
+
+/* hamburger menu */
+.hamburger-menu{
+    display: none;
+}
+/* page titles */
+.page-title{
+    font-size: var(--fs1);
+    padding-bottom: var(--spacing6);
+}
+/* content head */
+.content-head{
+    font-size: var(--fs2);
+    padding-bottom: 1rem;
+}
+
+/* page description */
+.content-description{
+    font-size: var(--fs3);
+    color: var(--secondary-color);
+    margin-bottom: var(--spacing14);
+}
+
+/* iframe style */
+.iframe-wrapper{
+    position: relative;
+    overflow: hidden;
+    padding-top: 30%;
+    padding-bottom:0;
+    margin-bottom: 0;
+    margin-bottom: var(--spacing7);
+   
+}
+
+.code-snippet{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    
+}
+
+/* component-container */
+.component-container{
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing8);
+    background-color: var(--secondary-hover-color);
+    align-items: center;
+    margin:1rem 3rem    ;
+}
+
+.component-horizontal{
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: var(--spacing7);
+    flex-wrap: wrap;
+}
+
+/* color container */
+.color-container{
+    width: 100%;
+    display: flex;
+    height: 8rem;
+    gap:var(--spacing6);
+    margin-bottom: var(--spacing7);
+    flex-wrap: wrap;
+}
+
+.color{
+    width: 7rem;
+    height: auto;
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+    display:flex;
+    border-radius: var(--br-small);
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* color container - colors */
+.first-color{
+    background: var(--primary-color);
+}
+.second-color{
+    background-color: var(--secondary-color);
+}
+.third-color{
+    color: black;
+    background-color:#FF9D9D ; 
+}
+.fourth-color{
+    color: black;
+    background-color:#BDFFA3 ; 
+}
+.fifth-color{
+    color: black;
+    background-color:#FFEF72 ; 
+}
+.sixth-color{
+    color: black;
+    background-color:#ADE4FF ; 
+}
+.helper-width{
+    width: 100%;
+}
+
+/* media query */
+@media only screen and (max-width: 1000px){
+    .page-container{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: 
+        "nav nav"
+        "page page"
+        "page page";
+    }
+    .hamburger-menu{
+        display: block;
+        background-color: black;
+        color: wheat;
+    }
+    .sidebar{
+        position: absolute;
+        flex-direction: column;
+        display: none;
+    }
+    .main-content{
+    margin: 0;
+    }
+    .responsive-sidebar-container{
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background-color: var(--bg-color);
+        
+    }
+    .sidebar-responsive{
+        flex-direction: column;
+        z-index: 100;
+        padding: var(--spacing6) var(--spacing5);
+        border: 1px solid black ;
+        
+    }
+
+}

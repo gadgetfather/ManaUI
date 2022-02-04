@@ -1,0 +1,24 @@
+@import url(/common.css);
+.input-box{
+    display: flex;
+    font-size: var(--fs3);
+    flex-direction: column;
+    max-width:20rem;
+}
+
+.input-box input{
+    padding: var(--spacing2);
+    border-radius: .2rem;
+}
+
+.err{
+    color: #9d0404;
+}
+.correct{
+    color: green;
+}
+
+.err input,.err p,.correct-msg{
+    margin-bottom: 0;
+    margin-top: 0;
+}

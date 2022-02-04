@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Documentation/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <script defer src="/Components/modal/modal.js"></script>
+    <script defer src="/Documentation/sidebar.js"></script>
+
+    <title>Modal | Mana UI</title>
+</head>
+
+<body>
+    <div class="page-container">
+        <!-- navbar -->
+        <nav class="navbar breakr">
+            <div class="brand-name">
+                <a href="/index.html"><h1>MANA UI</h1></a>
+            </div>
+            <div>
+                <ul class="nav-icons">
+                    <li><a target="_blank" href="https://github.com/gadgetfather/ManaUI"><i class="icon fab fa-github"></i></a>
+                    </li>
+                    <li> <a target="_blank" href="https://twitter.com/Gadgetfather"><i
+                                class="icon fab fa-twitter"></i></a> </li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/gadgetfather/"><i
+                                class="icon fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- sidebar -->
+        <aside class="sidebar">
+            <h1 class="breakr">Get Started</h1>
+            <a href="/Documentation/index.html" class="btn btn-text-primary">Introduction</a>
+            <a href="/Documentation/color-page.html" class="btn btn-text-primary">Colors</a>
+            <a href="/Documentation/utilities-page.html" class="btn btn-text-primary">Utilities</a>
+            <h1 class="breakr">Components</h1>
+            <a href="/Documentation/alert-page.html" class="btn btn-text-primary">Alert</a>
+            <a href="/Documentation/avatar-page.html" class="btn btn-text-primary">Avatar</a>
+            <a href="/Documentation/badge-page.html" class="btn btn-text-primary">Badge</a>
+            <a href="/Documentation/button-page.html" class="btn btn-text-primary">Button</a>
+            <a href="/Documentation/card-page.html" class="btn btn-text-primary">Card</a>
+            <a href="/Documentation/image-page.html" class="btn btn-text-primary">Image</a>
+            <a href="/Documentation/input-page.html" class="btn btn-text-primary">Input</a>
+            <a href="/Documentation/list-page.html" class="btn btn-text-primary">List</a>
+            <a href="/Documentation/modal-page.html" class="btn btn-text-primary">Modal</a>
+        </aside>
+        <div class="main-content">
+            <!-- responsive side bar -->
+            <div class="responsive-sidebar-container">
+                <button class="btn btn-secondary hamburger-menu"><i class="fas fa-bars"></i></button>
+                <aside class="sidebar-responsive">
+                <h1 class="breakr">Get Started</h1>
+                <a href="/Documentation/index.html" class="btn btn-text-primary">Introduction</a>
+                <a href="/Documentation/color-page.html" class="btn btn-text-primary">Colors</a>
+                <a href="/Documentation/utilities-page.html" class="btn btn-text-primary">Utilities</a>
+                <h1 class="breakr">Components</h1>
+                <a href="/Documentation/alert-page.html" class="btn btn-text-primary">Alert</a>
+                <a href="/Documentation/avatar-page.html" class="btn btn-text-primary">Avatar</a>
+                <a href="/Documentation/badge-page.html" class="btn btn-text-primary">Badge</a>
+                <a href="/Documentation/button-page.html" class="btn btn-text-primary">Button</a>
+                <a href="/Documentation/card-page.html" class="btn btn-text-primary">Card</a>
+                <a href="/Documentation/image-page.html" class="btn btn-text-primary">Image</a>
+                <a href="/Documentation/input-page.html" class="btn btn-text-primary">Input</a>
+                <a href="/Documentation/list-page.html" class="btn btn-text-primary">List</a>
+                <a href="/Documentation/modal-page.html" class="btn btn-text-primary">Modal</a>
+            </aside>
+            </div>
+            <h1 class="page-title breakr">Modal</h1>
+            <p class="content-description">The modal component provides a solid foundation for creating dialogs,
+                popovers, lightboxes, or whatever else.
+            </p>
+            <!-- simple input -->
+            <h2 class="content-head breakr">Simple modal</h2>
+            <p class="content-description">You can click on the cross button or anywhere outside the modal to close it.
+            </p>
+            <div class="component-container">
+                <button id="myBtn" class="btn btn-primary">Open Modal</button>
+
+                <div id="modal" class="modal-container">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+
+                        <div class="card-container">
+                            <span class="close">&times;</span>
+                            <h1 class="card-title">This is modal</h1>
+                            <h2 class="card-subtitle">click on cross to close it</h2>
+                            <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Laudantium, quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+                                adipisci!</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="iframe-wrapper">
+                <iframe class="code-snippet"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=794&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520id%253D%2522myBtn%2522%2520class%253D%2522btn%2520btn-primary%2522%253EOpen%2520Modal%253C%252Fbutton%253E%250A%2509%2509%253Cdiv%2520id%253D%2522modal%2522%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Modal%2520content%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522close%2522%253E%2526times%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253EThis%2520is%2520modal%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253Eclick%2520on%2520cross%2520to%2520close%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520it%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2520%2520%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253ELorem%252C%2520ipsum%2520dolor%2520sit%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520amet%2520consectetur%2520adipisicing%2520elit.Laudantium%252C%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520quasi.%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520adipisicing%2520elit.%2520Ipsum%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520adipisci%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
