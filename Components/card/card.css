@@ -86,3 +86,39 @@
 .card-shadow{
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.233);
 }
+
+
+/* product card */
+.product-card{
+    padding: 0;
+    text-align: center;
+    width: 25rem;
+}
+.product-card .img-container{
+    width: 100%;
+}
+
+.product-card .btn{
+    margin-top: var(--spacing12);
+    text-transform: uppercase;
+}
+
+.product-card h1{
+    font-size: var(--fs4);
+    font-weight: var(--fw-semi);
+}
+.product-card h2{
+    font-size: var(--fs3);
+    font-weight: var(--fw-bold);
+}
+.product-card .fav-icon{
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    padding: 10px;
+    top: 5px;
+    right: 5px;
+}
+.product-card .fav-icon:hover{
+    color:#FF1B1B;
+}
