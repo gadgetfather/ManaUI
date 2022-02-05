@@ -38,3 +38,25 @@
 .badge--color--yellow{
     background-color: yellow; 
 }
+
+
+/* icon badge */
+
+.icon-container{
+    font-size: var(--fs2);
+    position: relative;
+}
+.icon-badge{
+    height: 18px;
+    width: 18px;
+    background-color: #ef4444;
+    display: block;
+    border-radius: var(--br-full);
+    position: absolute;
+    top:0px;
+    right: -6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
