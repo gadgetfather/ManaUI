@@ -7,8 +7,10 @@
 }
 .sucess{
     border: 2px solid green;
+    background-color: #BDFFA3;
 }
 
 .failure{
     border: 2px solid red;
+    background-color: #FF9D9D;
 }
