@@ -30,8 +30,9 @@
 }
 /* dismiss button */
 .card-dismiss-btn{
-    max-width: max-content;
-    margin-left: auto;
+    position: absolute;
+    top: 0;
+    right: 5px;
 }
 /* overlay text */
 .card-text-overlay{
