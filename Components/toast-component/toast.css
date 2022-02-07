@@ -1,0 +1,14 @@
+.toast{
+    border: 1px solid black;
+    width: 18rem;
+    padding: 0 1rem;
+    border-radius:.2rem;
+    font-size: 1.1rem;
+}
+.sucess{
+    border: 2px solid green;
+}
+
+.failure{
+    border: 2px solid red;
+}
