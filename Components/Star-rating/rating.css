@@ -1,0 +1,42 @@
+@import url(/common.css);
+.rating{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.rating input{
+    display: none;
+}
+.rating label{
+    display: block;
+    cursor: pointer;
+    width: 3.1rem;
+    padding-left: 10px;
+}
+
+.rating label::before{
+    content: '\f005';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: relative;
+    display: block;
+    font-size: 50px;
+    color: #1d1c1c;
+}
+.rating label::after{
+    content: '\f005';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 50px;    
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    color: yellow;
+    transition: 0.2s;
+}
+
+.rating label:hover::after,
+.rating label:hover ~ label::after,
+.rating input:checked ~ label::after
+{
+    opacity: 1;
+}
