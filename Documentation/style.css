@@ -10,6 +10,7 @@ body{
     height: 100%;
     color: var(--primary-color);
     display: grid;
+    padding-bottom: 2rem;
     gap: 1rem;
     grid-template-columns: 350px repeat(3,1fr);
     grid-template-rows: 5rem;
