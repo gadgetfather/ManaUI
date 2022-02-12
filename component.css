@@ -8,7 +8,11 @@
 @import url(/Components/Input-component/input.css);
 @import url(/Components/Utilities/utlities.css);
 @import url(/Components/modal/modal.css);
+
+@import url(/Components/grid-system/grid.css);
+
 @import url(/Components/toast-component/toast.css);
+
 @import url(/Components/list-component/list.css);
 @import url(/Components/navbar/navbar.css);
 @import url(/common.css);
