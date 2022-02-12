@@ -1,0 +1,36 @@
+
+.navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 1rem;
+    gap: 2rem;
+    width: 100%;
+    align-items: center;
+    min-height: 3rem;
+}
+.navigation-bar input{
+    padding: 5px 10px;
+
+}
+.navigation-bar button{
+    padding: 5px 10px;
+}
+.navigation-bar .nav-heading{
+    text-decoration: none;
+    font-size: var(--fs1);
+    color: black;
+}
+.navigation-bar li{
+    list-style: none;
+    
+}
+.nav-action-btn{
+    display: flex;
+    gap: 1rem;
+    font-size: var(--fs3);
+}
+.nav-action-btn a{
+    text-decoration: none;
+    color: black;
+}
