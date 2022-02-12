@@ -1,10 +1,10 @@
 @import url(/component.css);
 
 body{
-    background-color: var(--bg-color)
+    background-color: var(--bg-color);
 }
 .breakr{
-    border-bottom: 1px solid rgba(0, 0, 0, 0.356);
+    border-bottom: 1px solid gainsboro;
 }
 .page-container{
     height: 100%;
@@ -124,7 +124,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: var(--spacing8);
-    background-color: var(--secondary-hover-color);
+    /* background-color: var(--secondary-hover-color); */
     align-items: center;
     margin:1rem 3rem    ;
 }
@@ -210,7 +210,7 @@ body{
         position: sticky;
         top: 0;
         z-index: 100;
-        background-color: var(--bg-color);
+        background-color: white;
         
     }
     .sidebar-responsive{
