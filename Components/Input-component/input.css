@@ -3,7 +3,8 @@
     display: flex;
     font-size: var(--fs3);
     flex-direction: column;
-    max-width:20rem;
+    min-width:19rem;
+    align-self: flex-start;
 }
 
 .input-box input{
