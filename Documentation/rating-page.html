@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Documentation/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href= "/Components/Rating/rating.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-    <script defer src="/Components/modal/modal.js"></script>
     <script defer src="/Documentation/sidebar.js"></script>
-
-    <title>Modal | Mana UI</title>
+    <title>Rating | Mana UI</title>
 </head>
 
 <body>
@@ -57,7 +56,7 @@
 
         </aside>
         <div class="main-content">
-            <!-- responsive side bar -->
+            <!-- responsive sidebar -->
             <div class="responsive-sidebar-container">
                 <button class="btn btn-secondary hamburger-menu"><i class="fas fa-bars"></i></button>
                 <aside class="sidebar-responsive">
@@ -82,46 +81,40 @@
         
                     <a href="/Documentation/navbar-page.html" class="btn btn-text-primary">Navbar</a>
                     <a href="/Documentation/rating-page.html" class="btn btn-text-primary">Rating</a>
+
             </aside>
 
             </div>
-            <h1 class="page-title breakr">Modal</h1>
-            <p class="content-description">The modal component provides a solid foundation for creating dialogs,
-                popovers, lightboxes, or whatever else.
+            <h1 class="page-title breakr">Rating</h1>
+            <p class="content-description"> This is rating component that can be used as per user requirement.
             </p>
-            <!-- simple input -->
-            <h2 class="content-head breakr">Simple modal</h2>
-            <p class="content-description">You can click on the cross button or anywhere outside the modal to close it.
+            <!-- headings -->
+            <h2 class="content-head breakr">5 star rating </h2>
+            <p class="content-description">User can click star and decide rating. can be used in ecommerce app.
             </p>
             <div class="component-container">
-                <button id="myBtn" class="btn btn-primary">Open Modal</button>
-
-                <div id="modal" class="modal-container">
-
-                    <!-- Modal content -->
-                    <div class="modal-content">
-
-                        <div class="card-container">
-                            <span class="close">&times;</span>
-                            <h1 class="card-title">This is modal</h1>
-                            <h2 class="card-subtitle">click on cross to close it</h2>
-                            <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Laudantium, quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
-                                adipisci!</p>
-                        </div>
+                <div class="rating-css">
+                    <div class="star-icon">
+                      <input type="radio" name="rating1" id="rating1">
+                      <label for="rating1" class="fa fa-star"></label>
+                      <input type="radio" name="rating1" id="rating2">
+                      <label for="rating2" class="fa fa-star"></label>
+                      <input type="radio" name="rating1" id="rating3">
+                      <label for="rating3" class="fa fa-star"></label>
+                      <input type="radio" name="rating1" id="rating4">
+                      <label for="rating4" class="fa fa-star"></label>
+                      <input type="radio" name="rating1" id="rating5">
+                      <label for="rating5" class="fa fa-star"></label>
                     </div>
-
-                </div>
+                  </div>
             </div>
             <div class="iframe-wrapper">
                 <iframe class="code-snippet"
-                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520id%253D%2522myBtn%2522%2520class%253D%2522btn%2520btn-primary%2522%253EOpen%2520Modal%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520id%253D%2522modal%2522%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Modal%2520content%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253Cspan%2520class%253D%2522close%2522%253E%2526times%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253Ch1%2520class%253D%2522card-title%2522%253EThis%2520is%2520modal%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253Ch2%2520class%253D%2522card-subtitle%2522%253Eclick%2520on%2520cross%2520to%2520close%2520it%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522card-description%2522%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-css%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating1%2522%2520id%253D%2522rating1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522rating1%2522%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating1%2522%2520id%253D%2522rating2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522rating2%2522%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating1%2522%2520id%253D%2522rating3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522rating3%2522%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating1%2522%2520id%253D%2522rating4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522rating4%2522%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating1%2522%2520id%253D%2522rating5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522rating5%2522%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
-
-
-
+            
         </div>
     </div>
 </body>
