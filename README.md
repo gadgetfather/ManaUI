@@ -1,7 +1,7 @@
 # Mana UI
 A Mana is component library for quick creation of websites
 
----
+
 
 ## Features
 
@@ -40,9 +40,9 @@ and its ready to use.
 For full documentation Visit , [ManaUI](https://mana-ui.netlify.app/index.html)
 
 
-## Desktop preview
+## Desktop version
 ![s1](./Screenshot/manaui1.gif)
-## Mobile preview
+## Mobile version
 ![s3](./Screenshot/manaui3.gif)
 
 ## 🔗 Links
